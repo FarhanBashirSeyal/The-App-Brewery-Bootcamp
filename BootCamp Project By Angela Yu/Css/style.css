@@ -1,0 +1,36 @@
+body {
+  background-color: aquamarine;
+  margin: 0px;
+}
+.top-container {
+  width: 200px;
+  height: 200px;
+  background-color: #ef4f4f;
+  border: 10px solid black;
+  padding: 20px;
+  color: #f5f4f4;
+  font-size: 20px;
+  font-weight: bold;
+}
+.middle-container {
+  width: 200px;
+  height: 200px;
+  background-color: #11698e;
+  margin-left: 260px;
+  border: 20px solid black;
+  padding: 20px;
+  color: #f5f4f4;
+  font-size: 20px;
+  font-weight: bold;
+}
+.bottem-container {
+  width: 200px;
+  height: 200px;
+  background-color: #cdac81;
+  margin-left: 540px;
+  border: 10px solid black;
+  padding: 20px;
+  color: #f5f4f4;
+  font-size: 20px;
+  font-weight: bold;
+}
