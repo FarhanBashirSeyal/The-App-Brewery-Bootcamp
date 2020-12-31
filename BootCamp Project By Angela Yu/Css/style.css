@@ -1,36 +1,25 @@
 body {
-  background-color: aquamarine;
-  margin: 0px;
+  margin: 0;
+  text-align: center;
 }
+/**********Element CSS*************/
+
+/**********Classes CSS*************/
 .top-container {
-  width: 200px;
-  height: 200px;
-  background-color: #ef4f4f;
-  border: 10px solid black;
-  padding: 20px;
-  color: #f5f4f4;
-  font-size: 20px;
-  font-weight: bold;
+  background-color: #e4f9f5;
+  position: relative;
+  padding-top: 100px;
+}
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+.bottem-cloud {
+  position: absolute;
+  left: 300px;
 }
 .middle-container {
-  width: 200px;
-  height: 200px;
-  background-color: #11698e;
-  margin-left: 260px;
-  border: 20px solid black;
-  padding: 20px;
-  color: #f5f4f4;
-  font-size: 20px;
-  font-weight: bold;
 }
 .bottem-container {
-  width: 200px;
-  height: 200px;
-  background-color: #cdac81;
-  margin-left: 540px;
-  border: 10px solid black;
-  padding: 20px;
-  color: #f5f4f4;
-  font-size: 20px;
-  font-weight: bold;
 }
