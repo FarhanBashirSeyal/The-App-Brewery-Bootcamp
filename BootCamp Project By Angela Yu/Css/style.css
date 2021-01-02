@@ -34,6 +34,11 @@ a{
   right: 300px;
   top: 50px;
 }
+.pro{
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+}
 .bottem-cloud {
   position: absolute;
   left: 300px;
