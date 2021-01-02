@@ -15,6 +15,7 @@ h3{
   font-family: 'Montserrat', sans-serif;
 }
 /**********Classes CSS*************/
+/**********Top-Container CSS*************/
 .top-container {
   background-color: #e4f9f5;
   position: relative;
@@ -29,7 +30,15 @@ h3{
   position: absolute;
   left: 300px;
 }
+/**********Middel-Container CSS*************/
 .middle-container {
 }
+.profile-image{
+  /* border: 1px solid e4f9f5; */
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+}
+/**********Bottem-Container CSS*************/
 .bottem-container {
 }
