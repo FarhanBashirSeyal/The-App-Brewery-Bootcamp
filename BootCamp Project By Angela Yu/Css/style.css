@@ -4,10 +4,12 @@ body{
   font-family: 'Roboto', sans-serif;
 
 }
+    /* Top Container CSS Start */
 .top-container{
   background-color: #EAF6F6;
   padding-top: 100px;
   position: relative;
+  box-sizing: border-box;
 
 }
 .top-cloud{
@@ -28,5 +30,33 @@ body{
 }
 h2{
   color: #5bb3b3;
-  font-size: 1.9rem;
+  font-size: 2.9rem;
+  margin-top: 15px;
+}
+/* Top Container CSS End */
+
+/* Middel Container CSS Start */
+.middle-container{
+  padding-top: 45px;
+}
+.profile-pic{
+  padding-top: 10px;
+
+}
+p{
+  color: #101615;
+  font-weight: bolder;
+  width: 500px;
+  margin: 10px auto;
+  line-height: 2;
+  
+}
+abbr{
+  text-decoration: none;
+}
+hr{
+  border: 10px dotted #207474;
+  border-bottom: none;
+  width: 60px;
+  margin-top: 30px;
 }
