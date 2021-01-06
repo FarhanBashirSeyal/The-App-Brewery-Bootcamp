@@ -6,7 +6,21 @@ body{
 }
 .top-container{
   background-color: #EAF6F6;
+  padding-top: 100px;
+  position: relative;
+
 }
+.top-cloud{
+  position: absolute;
+  top: 70px;
+  right: 280px;
+}
+.down-cloud{
+  position: absolute;
+  top: 340px;
+  left: 280px;
+}
+
 .name-title{
   font-family: 'Merienda One', cursive;
   color: #5bb3b3;
