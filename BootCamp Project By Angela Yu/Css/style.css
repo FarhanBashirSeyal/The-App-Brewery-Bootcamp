@@ -1,57 +1,18 @@
-body {
-  margin: 0;
+body{
+  margin: 0px;
   text-align: center;
-  font-family: 'Merriweather', serif;
+  font-family: 'Roboto', sans-serif;
+
 }
-/**********Element CSS*************/
-h1{
-  font-family: 'Sacramento', cursive;
-  margin: 40px auto 0px auto;
-  font-size: 5rem;
-  color: #66BFBF;
+.top-container{
+  background-color: #EAF6F6;
+}
+.name-title{
+  font-family: 'Merienda One', cursive;
+  color: #5bb3b3;
+  font-size: 3.5rem;
 }
 h2{
-  font-family: 'Montserrat', sans-serif;
-  font-size: 2.5rem;
-  color: #66BFBF;
-}
-h3{
-  font-family: 'Montserrat', sans-serif;
-   color: #11999E;
-}
-a{
-  color: #11999E;
-}
-/**********Classes CSS*************/
-/**********Top-Container CSS*************/
-.top-container {
-  background-color: #e4f9f5;
-  position: relative;
-  padding-top: 100px;
-}
-.top-cloud {
-  position: absolute;
-  right: 300px;
-  top: 50px;
-}
-.pro{
-  font-size: 2.5rem;
-  color: #66BFBF;
-  font-weight: normal;
-}
-.bottem-cloud {
-  position: absolute;
-  left: 300px;
-}
-/**********Middel-Container CSS*************/
-.middle-container {
-}
-.profile-image{
-  /* border: 1px solid e4f9f5; */
-  border-radius: 50%;
-  height: 300px;
-  width: 300px;
-}
-/**********Bottem-Container CSS*************/
-.bottem-container {
+  color: #5bb3b3;
+  font-size: 1.9rem;
 }
