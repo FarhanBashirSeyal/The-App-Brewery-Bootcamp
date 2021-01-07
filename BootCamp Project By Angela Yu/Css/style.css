@@ -35,7 +35,7 @@ h2{
 }
 h3{
   color: #5bb3b3;
-  font-size: 1.9rem;
+  font-size: 1.2rem;
   margin-top: 15px;
   margin-bottom: 5px;
 }
@@ -44,8 +44,8 @@ h3{
 
 /* Middel Container CSS Start */
 .middle-container{
-  padding-top: 45px;
-  box-sizing: border-box;
+  /* padding-top: 45px; */
+  /* box-sizing: border-box; */
 }
 .profile-pic{
   padding-top: 10px;
@@ -54,8 +54,8 @@ h3{
 p{
   color: #101615;
   font-weight: bolder;
-  width: 40%;
-  margin: 10px auto;
+  /* width: 40%; */
+  /* margin: 10px auto; */
   line-height: 2;
   /* text-align: justify; */
   
@@ -69,15 +69,53 @@ hr{
   width: 60px;
   margin: 50px auto;
 }
-/* .skill-h3{
-float: left; 
-} */
 
 .computer-pic{
   float: left;
-  width: 200px;
-  height: 200px;
-  margin-left: 150px;
+  width: 25%;
+  height: auto;
+  margin-right: 30px;
   border-radius: 50%;
+  
 
+}
+.row{
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+}
+.btn {
+  background: #67A2E5;
+  background-image: linear-gradient(top, #67A2E5, #3160AB);
+   border-radius: 6px;
+  color: #FFFFFF;
+  font-size: 18px;
+  padding: 10px 20px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.btn:hover {
+  background: #3D94F6;
+  background-image:linear-gradient(top, #3D94F6, #1E62D0);
+  border-radius: 6px;
+  text-decoration: none;
+}
+.get-touch{
+  margin-bottom: 150px;
+}
+.bottem-container{
+  background-color: #5bb3b3;
+  padding: 50px;
+  height: 25%;
+}
+.footer-link{
+  text-decoration: none;
+  color: #206063;
+  margin: auto 30px;
+}
+.copy-right{
+  color: #EAF6F6;
 }
